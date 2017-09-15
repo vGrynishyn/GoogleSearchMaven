@@ -32,11 +32,6 @@
             <version>RELEASE</version>
         </dependency>
         <dependency>
-            <groupId>your-testng-listener-artifact-groupid</groupId>
-            <artifactId>artifactid</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>RELEASE</version>
