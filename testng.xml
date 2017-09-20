@@ -4,6 +4,13 @@
     <test name="Test Cases">
         <classes>
             <class name="GoogleSearchTests">
+               <methods>
+                    <parameter name="pattern" value="automation"/>
+                    <parameter name="pagesNum" value="5"/>
+                    <parameter name="expectedDomainName" value="testautomationday.com"/>
+                    <include name="searchPatternAndCheckBrowserTitleTest"/>
+                    <!--<include name="tryToFindExpectedDomainNameTest"/>-->
+                </methods>
             </class>
         </classes>
     </test>
